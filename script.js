@@ -327,24 +327,57 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }, 1500);
 
-    // ===== CONTACT FORM =====
+    // ===== CONTACT FORM (Formspree) =====
     const contactForm = document.getElementById('contactForm');
+    const formSuccess = document.getElementById('formSuccess');
+    const sendAnother = document.getElementById('sendAnother');
 
-    contactForm.addEventListener('submit', (e) => {
+    contactForm.addEventListener('submit', async (e) => {
         e.preventDefault();
 
         const btn = contactForm.querySelector('button[type="submit"]');
         const originalHTML = btn.innerHTML;
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+        btn.disabled = true;
 
-        btn.innerHTML = '<i class="fas fa-check-circle"></i> Message Sent! ✨';
-        btn.style.background = 'var(--emerald)';
+        try {
+            const response = await fetch(contactForm.action, {
+                method: 'POST',
+                body: new FormData(contactForm),
+                headers: { 'Accept': 'application/json' }
+            });
 
-        setTimeout(() => {
-            btn.innerHTML = originalHTML;
-            btn.style.background = '';
-            contactForm.reset();
-        }, 3000);
+            if (response.ok) {
+                contactForm.style.display = 'none';
+                formSuccess.style.display = 'block';
+                formSuccess.classList.add('show');
+                contactForm.reset();
+            } else {
+                throw new Error('Form submission failed');
+            }
+        } catch (error) {
+            btn.innerHTML = '<i class="fas fa-exclamation-circle"></i> Failed — Try Again';
+            btn.style.background = 'var(--danger)';
+            setTimeout(() => {
+                btn.innerHTML = originalHTML;
+                btn.style.background = '';
+                btn.disabled = false;
+            }, 3000);
+            return;
+        }
+
+        btn.innerHTML = originalHTML;
+        btn.disabled = false;
     });
+
+    // Send Another button
+    if (sendAnother) {
+        sendAnother.addEventListener('click', () => {
+            formSuccess.style.display = 'none';
+            formSuccess.classList.remove('show');
+            contactForm.style.display = 'block';
+        });
+    }
 
     // ===== CUSTOM CURSOR =====
     const cursorDot = document.getElementById('cursorDot');
