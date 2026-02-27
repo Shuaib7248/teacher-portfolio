@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ustaz Shuaib Alam — Online Quran & Urdu Teacher</title>
+    <meta name="description"
+        content="Learn Quran with Tajweed, Hifz, and Urdu language online from a certified teacher. Personalized 1-on-1 live classes for all ages.">
+    <meta name="keywords"
+        content="Online Quran Teacher, Tajweed, Hifz, Urdu Teacher, Learn Quran Online, Islamic Education">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ustaz Shuaib Alam — Online Quran & Urdu Teacher">
+    <meta property="og:description" content="Premium online Quran & Urdu teaching. Personalized 1-on-1 live sessions.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ========== SCROLL PROGRESS BAR ========== -->
+    <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+
+    <!-- ========== CUSTOM CURSOR ========== -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-outline" id="cursorOutline"></div>
+
+    <!-- ========== PRELOADER ========== -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">☪</div>
+            <div class="preloader-text">بِسْمِ اللَّهِ</div>
+            <div class="preloader-bar">
+                <div class="preloader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">☪</span>
+                <div class="logo-text">
+                    <span class="logo-name">Ustaz Shuaib</span>
+                    <span class="logo-sub">Quran & Urdu Teacher</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#features">Why Me</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary btn-nav" data-open-trial>Book Free Trial</a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon moon-icon"></i>
+                    <i class="fas fa-sun sun-icon"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+        <!-- Video Background -->
+        <div class="video-bg-container">
+            <video autoplay muted loop playsinline class="hero-video" id="heroVideo">
+                <source
+                    src="https://assets.mixkit.co/videos/preview/mixkit-stars-in-the-night-sky-slow-motion-4428-preview.mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+
+        <div class="hero-bg-pattern"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+
+        <!-- Floating Parallax Elements -->
+        <div class="parallax-wrapper">
+            <div class="floating-element f-1" data-parallax-speed="0.2">☪</div>
+            <div class="floating-element f-2" data-parallax-speed="0.5">✦</div>
+            <div class="floating-element f-3" data-parallax-speed="0.3">✨</div>
+            <div class="floating-element f-4" data-parallax-speed="0.4">✦</div>
+        </div>
+
+        <div class="hero-glow"></div>
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <span class="badge-pulse"></span>
+                <i class="fas fa-circle-check"></i> Now Accepting New Students for 2026
+            </div>
+            <h1 class="hero-title">
+                Learn <span class="hero-highlight">Quran</span> & <span class="hero-highlight">Urdu</span>
+                <br>with Personal Attention
+            </h1>
+            <p class="hero-arabic">اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ</p>
+            <p class="hero-subtitle">
+                Certified online Quran & Urdu teacher with 8+ years of experience.
+                Personalized 1-on-1 live sessions for kids, adults & reverts — from anywhere in the world.
+            </p>
+            <div class="hero-cta">
+                <a href="#courses" class="btn btn-primary btn-lg">
+                    <i class="fas fa-graduation-cap"></i> Explore Courses
+                </a>
+                <a href="https://wa.me/1234567890" class="btn btn-whatsapp btn-lg" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp Me
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="2500">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Students Taught</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="8">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="20">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Countries Reached</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="4.9">0</span>
+                    <span class="stat-label">★ Student Rating</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ========== MARQUEE ========== -->
+    <div class="marquee-banner">
+        <div class="marquee-content">
+            <span>✦ Free Trial Class Available</span>
+            <span>✦ New Batch Starting March 2026</span>
+            <span>✦ Special Discount for Siblings</span>
+            <span>✦ Learn Quran with Tajweed</span>
+            <span>✦ Urdu Language Classes Available</span>
+            <span>✦ Male & Female Students Welcome</span>
+            <span>✦ Free Trial Class Available</span>
+            <span>✦ New Batch Starting March 2026</span>
+            <span>✦ Special Discount for Siblings</span>
+            <span>✦ Learn Quran with Tajweed</span>
+            <span>✦ Urdu Language Classes Available</span>
+            <span>✦ Male & Female Students Welcome</span>
+        </div>
+    </div>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Your Dedicated <span class="text-gold">Quran & Urdu</span> Teacher</h2>
+                <p class="section-desc">
+                    Passionate about spreading the knowledge of Quran and Urdu language through modern online education.
+                </p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image-col" data-animate>
+                    <div class="about-image-wrap">
+                        <div class="about-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="about-image-badge">
+                            <span class="badge-years">8+</span>
+                            <span>Years Teaching</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text-col" data-animate>
+                    <div class="about-text-content">
+                        <h3>Assalamu Alaikum! I'm <span class="text-gold">Ustaz Shuaib Alam</span></h3>
+                        <p>
+                            I am a certified Quran and Urdu teacher with over 8 years of experience in online education.
+                            I graduated from a renowned Islamic institution and have been dedicated to making Quranic
+                            education and Urdu language learning accessible to Muslims around the globe.
+                        </p>
+                        <p>
+                            My teaching methodology combines traditional Islamic scholarship with modern pedagogical
+                            techniques, ensuring that every student — whether a 5-year-old child or a 60-year-old adult
+                            —
+                            learns at their own pace with full understanding and proper pronunciation.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-certificate"></i>
+                                <span>Certified Tajweed Teacher</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-book-quran"></i>
+                                <span>Hafiz-e-Quran</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-language"></i>
+                                <span>Urdu Language Expert</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-globe"></i>
+                                <span>20+ Countries Served</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Get in Touch
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TRUST BADGES ========== -->
+    <section class="trust-badges">
+        <div class="container">
+            <p class="trust-label">Trusted Worldwide</p>
+            <div class="trust-row" data-animate>
+                <div class="trust-badge">
+                    <i class="fas fa-video"></i>
+                    <span>Zoom Certified</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fab fa-paypal"></i>
+                    <span>PayPal Secure</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-shield-halved"></i>
+                    <span>SSL Protected</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-globe"></i>
+                    <span>20+ Countries</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-star"></i>
+                    <span>4.9★ Rated</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-certificate"></i>
+                    <span>Ijazah Holder</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== COURSES ========== -->
+    <section class="courses section" id="courses">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">My Courses</span>
+                <h2 class="section-title">Comprehensive <span class="text-gold">Learning Programs</span></h2>
+                <p class="section-desc">Carefully designed courses for every age and skill level</p>
+            </div>
+
+            <!-- ===== COURSE FILTER TABS ===== -->
+            <div class="course-filters" data-animate>
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-th"></i> All Courses
+                </button>
+                <button class="filter-btn" data-filter="quran">
+                    <i class="fas fa-book-quran"></i> Quran
+                </button>
+                <button class="filter-btn" data-filter="urdu">
+                    <i class="fas fa-pen-fancy"></i> Urdu
+                </button>
+                <button class="filter-btn" data-filter="arabic">
+                    <i class="fas fa-language"></i> Arabic
+                </button>
+                <button class="filter-btn" data-filter="islamic">
+                    <i class="fas fa-mosque"></i> Islamic
+                </button>
+            </div>
+
+            <div class="courses-grid" id="coursesGrid">
+                <!-- Course 1 -->
+                <div class="course-card" data-animate data-category="quran">
+                    <div class="course-badge">Popular</div>
+                    <div class="course-icon"><i class="fas fa-book-open"></i></div>
+                    <h3>Quran Reading (Nazra)</h3>
+                    <p>Learn to read the Holy Quran with proper pronunciation. Perfect for beginners of all ages
+                        starting their Quranic journey from Qaida to fluent reading.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> Arabic letter recognition</li>
+                        <li><i class="fas fa-check"></i> Basic Tajweed rules</li>
+                        <li><i class="fas fa-check"></i> Fluent Quran reading</li>
+                    </ul>
+                    <div class="course-footer">
+                        <span class="course-duration"><i class="fas fa-clock"></i> 6-12 Months</span>
+                        <a href="#contact" class="btn btn-sm btn-primary">Enroll</a>
+                    </div>
+                </div>
+                <!-- Course 2 -->
+                <div class="course-card" data-animate data-category="quran">
+                    <div class="course-badge best">Best Seller</div>
+                    <div class="course-icon"><i class="fas fa-book-quran"></i></div>
+                    <h3>Tajweed Mastery</h3>
+                    <p>Master the art of Quran recitation with detailed Tajweed rules. Learn Makharij al-Huroof, Sifaat,
+                        and all essential recitation rules.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> Complete Tajweed rules</li>
+                        <li><i class="fas fa-check"></i> Makharij al-Huroof</li>
+                        <li><i class="fas fa-check"></i> Practical application</li>
+                    </ul>
+                    <div class="course-footer">
+                        <span class="course-duration"><i class="fas fa-clock"></i> 6-8 Months</span>
+                        <a href="#contact" class="btn btn-sm btn-primary">Enroll</a>
+                    </div>
+                </div>
+                <!-- Course 3 -->
+                <div class="course-card" data-animate data-category="quran">
+                    <div class="course-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Hifz Al-Quran</h3>
+                    <p>Memorize the complete Holy Quran with proven memorization techniques, structured daily schedules,
+                        and regular revision under expert guidance.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> Structured memorization plan</li>
+                        <li><i class="fas fa-check"></i> Daily revision system</li>
+                        <li><i class="fas fa-check"></i> Progress tracking</li>
+                    </ul>
+                    <div class="course-footer">
+                        <span class="course-duration"><i class="fas fa-clock"></i> 2-4 Years</span>
+                        <a href="#contact" class="btn btn-sm btn-primary">Enroll</a>
+                    </div>
+                </div>
+                <!-- Course 4 -->
+                <div class="course-card" data-animate data-category="urdu">
+                    <div class="course-badge">New</div>
+                    <div class="course-icon"><i class="fas fa-pen-fancy"></i></div>
+                    <h3>Urdu Reading & Writing</h3>
+                    <p>Learn to read, write, and speak Urdu fluently. Perfect for children of overseas
+                        Pakistanis/Indians who want to stay connected to their roots.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> Urdu alphabet & calligraphy</li>
+                        <li><i class="fas fa-check"></i> Reading & comprehension</li>
+                        <li><i class="fas fa-check"></i> Conversation practice</li>
+                    </ul>
+                    <div class="course-footer">
+                        <span class="course-duration"><i class="fas fa-clock"></i> 6-12 Months</span>
+                        <a href="#contact" class="btn btn-sm btn-primary">Enroll</a>
+                    </div>
+                </div>
+                <!-- Course 5 -->
+                <div class="course-card" data-animate data-category="islamic">
+                    <div class="course-icon"><i class="fas fa-child"></i></div>
+                    <h3>Kids Islamic Foundation</h3>
+                    <p>Fun & engaging program for children — learn Qaida, daily Duas, Kalimas, small Surahs, and Islamic
+                        manners in an interactive way.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> Qaida & basic Quran</li>
+                        <li><i class="fas fa-check"></i> Daily Duas & Surahs</li>
+                        <li><i class="fas fa-check"></i> Islamic stories & manners</li>
+                    </ul>
+                    <div class="course-footer">
+                        <span class="course-duration"><i class="fas fa-clock"></i> Ongoing</span>
+                        <a href="#contact" class="btn btn-sm btn-primary">Enroll</a>
+                    </div>
+                </div>
+                <!-- Course 6 -->
+                <div class="course-card" data-animate data-category="arabic">
+                    <div class="course-icon"><i class="fas fa-language"></i></div>
+                    <h3>Arabic Language</h3>
+                    <p>Learn Arabic from scratch — reading, writing, speaking. Understand the Quran in its original
+                        language. Nahw, Sarf, and vocabulary building.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> Nahw & Sarf fundamentals</li>
+                        <li><i class="fas fa-check"></i> Quran vocabulary</li>
+                        <li><i class="fas fa-check"></i> Conversational Arabic</li>
+                    </ul>
+                    <div class="course-footer">
+                        <span class="course-duration"><i class="fas fa-clock"></i> 12-18 Months</span>
+                        <a href="#contact" class="btn btn-sm btn-primary">Enroll</a>
+                    </div>
+                </div>
+                <!-- Course 7 -->
+                <div class="course-card" data-animate data-category="islamic">
+                    <div class="course-icon"><i class="fas fa-mosque"></i></div>
+                    <h3>Islamic Studies</h3>
+                    <p>Essential Islamic knowledge — Fiqh, Aqeedah, Seerah of Prophet ﷺ, and practical guidance for
+                        daily Ibadaat and Muslim lifestyle.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> Fiqh & Aqeedah basics</li>
+                        <li><i class="fas fa-check"></i> Seerah of Prophet ﷺ</li>
+                        <li><i class="fas fa-check"></i> Practical Ibadaat</li>
+                    </ul>
+                    <div class="course-footer">
+                        <span class="course-duration"><i class="fas fa-clock"></i> 3-6 Months</span>
+                        <a href="#contact" class="btn btn-sm btn-primary">Enroll</a>
+                    </div>
+                </div>
+                <!-- Course 8 -->
+                <div class="course-card" data-animate data-category="quran">
+                    <div class="course-icon"><i class="fas fa-hands-praying"></i></div>
+                    <h3>Quran with Translation</h3>
+                    <p>Understand the meaning of what you recite. Learn word-by-word translation and basic Tafseer of
+                        the Holy Quran in Urdu or English.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> Word-by-word translation</li>
+                        <li><i class="fas fa-check"></i> Basic Tafseer</li>
+                        <li><i class="fas fa-check"></i> Context & application</li>
+                    </ul>
+                    <div class="course-footer">
+                        <span class="course-duration"><i class="fas fa-clock"></i> 12-24 Months</span>
+                        <a href="#contact" class="btn btn-sm btn-primary">Enroll</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FEATURES ========== -->
+    <section class="features section" id="features">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">Why Choose Me</span>
+                <h2 class="section-title">The <span class="text-gold">Difference</span> I Bring</h2>
+                <p class="section-desc">What makes my teaching approach unique and effective</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon-wrap"><i class="fas fa-video"></i></div>
+                    <h3>Live 1-on-1 Sessions</h3>
+                    <p>Every class is a private, personalized session via Zoom or Skype. No crowded group classes — full
+                        attention on your learning.</p>
+                </div>
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon-wrap"><i class="fas fa-clock"></i></div>
+                    <h3>Flexible Scheduling</h3>
+                    <p>Choose class timings that fit your routine. Available 7 days a week, early morning to late
+                        evening, across all time zones.</p>
+                </div>
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon-wrap"><i class="fas fa-child-reaching"></i></div>
+                    <h3>All Ages Welcome</h3>
+                    <p>Whether you're 5 or 65, beginner or intermediate — I adapt my teaching style to match your pace
+                        and learning style.</p>
+                </div>
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon-wrap"><i class="fas fa-chart-line"></i></div>
+                    <h3>Progress Reports</h3>
+                    <p>Regular progress reports keep you (or parents) updated on milestones achieved and areas to
+                        improve.</p>
+                </div>
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon-wrap"><i class="fas fa-wallet"></i></div>
+                    <h3>Affordable Fees</h3>
+                    <p>Quality education shouldn't break the bank. Competitive pricing with family discounts and
+                        flexible payment options.</p>
+                </div>
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon-wrap"><i class="fas fa-headset"></i></div>
+                    <h3>Always Available</h3>
+                    <p>Questions outside class hours? WhatsApp me anytime. I'm always here to help with homework,
+                        revision, or guidance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What My <span class="text-gold">Students Say</span></h2>
+                <p class="section-desc">Real feedback from students and parents around the world</p>
+            </div>
+            <div class="testimonial-slider" id="testimonialSlider">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Ustaz Shuaib has been an incredible teacher for my children. His
+                            patience and skill in teaching Tajweed is remarkable. Both my kids can now read the Quran
+                            beautifully. JazakAllah Khair!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                            <div>
+                                <h4>Ahmed Hassan</h4>
+                                <span>Parent — United Kingdom</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"I was looking for someone to teach my kids Urdu and found Ustaz
+                            Shuaib. He makes learning Urdu so fun and engaging! My daughter is now reading Urdu stories
+                            on her own. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                            <div>
+                                <h4>Fatima Begum</h4>
+                                <span>Parent — Canada</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"As a revert, I was nervous about learning Quran. Ustaz Shuaib was
+                            so patient and supportive. He started from the very basics and now I can read the Quran with
+                            proper Tajweed. Alhamdulillah!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                            <div>
+                                <h4>James Abdullah</h4>
+                                <span>Student — Australia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"My son has memorized 10 Juz in just one year under Ustaz Shuaib's
+                            guidance. His structured approach to Hifz and regular revision system is truly exceptional.
+                            MashaAllah!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                            <div>
+                                <h4>Bilal Mahmood</h4>
+                                <span>Parent — USA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"The Quran with Translation course opened my eyes. I now understand
+                            what I recite in Salah. Ustaz Shuaib explains the meaning so clearly in Urdu. It has
+                            transformed my prayer experience!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                            <div>
+                                <h4>Khadija Noor</h4>
+                                <span>Student — UAE</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"I live in Germany and wanted my children to learn Urdu properly.
+                            Ustaz Shuaib teaches them reading, writing, and conversation. They now speak Urdu at home
+                            naturally. Best investment ever!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                            <div>
+                                <h4>Yusuf Khan</h4>
+                                <span>Parent — Germany</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="slider-btn prev-btn" id="prevBtn" aria-label="Previous testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="slider-dots" id="sliderDots"></div>
+                    <button class="slider-btn next-btn" id="nextBtn" aria-label="Next testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRICING ========== -->
+    <section class="pricing section" id="pricing">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">Pricing Plans</span>
+                <h2 class="section-title">Affordable <span class="text-gold">Education</span> for Everyone</h2>
+                <p class="section-desc">Choose the plan that best fits your learning needs</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card" data-animate>
+                    <div class="pricing-header">
+                        <h3>Basic</h3>
+                        <p>Perfect for beginners</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">$</span>
+                        <span class="price-amount">25</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check-circle"></i> 2 classes per week</li>
+                        <li><i class="fas fa-check-circle"></i> 30-minute sessions</li>
+                        <li><i class="fas fa-check-circle"></i> 1-on-1 with teacher</li>
+                        <li><i class="fas fa-check-circle"></i> Monthly progress report</li>
+                        <li class="disabled"><i class="fas fa-times-circle"></i> Recorded sessions</li>
+                        <li class="disabled"><i class="fas fa-times-circle"></i> Weekend classes</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
+                </div>
+                <div class="pricing-card popular" data-animate>
+                    <div class="popular-tag">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Standard</h3>
+                        <p>Best value for learning</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">$</span>
+                        <span class="price-amount">45</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check-circle"></i> 4 classes per week</li>
+                        <li><i class="fas fa-check-circle"></i> 45-minute sessions</li>
+                        <li><i class="fas fa-check-circle"></i> 1-on-1 with teacher</li>
+                        <li><i class="fas fa-check-circle"></i> Weekly progress report</li>
+                        <li><i class="fas fa-check-circle"></i> Recorded sessions</li>
+                        <li class="disabled"><i class="fas fa-times-circle"></i> Weekend classes</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
+                </div>
+                <div class="pricing-card" data-animate>
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <p>Complete learning experience</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">$</span>
+                        <span class="price-amount">75</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check-circle"></i> 6 classes per week</li>
+                        <li><i class="fas fa-check-circle"></i> 60-minute sessions</li>
+                        <li><i class="fas fa-check-circle"></i> 1-on-1 with teacher</li>
+                        <li><i class="fas fa-check-circle"></i> Daily progress tracking</li>
+                        <li><i class="fas fa-check-circle"></i> Recorded sessions</li>
+                        <li><i class="fas fa-check-circle"></i> Weekend classes</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
+                </div>
+            </div>
+            <p class="pricing-note"><i class="fas fa-info-circle"></i> Sibling & family discounts available — Contact me
+                for custom plans</p>
+        </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section class="faq section" id="faq">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">FAQ</span>
+                <h2 class="section-title">Frequently Asked <span class="text-gold">Questions</span></h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item active">
+                    <button class="faq-question" aria-expanded="true">
+                        <span>How do online classes work?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Classes are conducted live via Zoom or Skype. You'll get a private 1-on-1 session with me.
+                            I'll send you the class link before each session. All you need is a stable internet
+                            connection and a device (laptop, tablet, or phone).</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What age groups do you teach?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I teach students of all ages — from kids as young as 5 years old to adults and elders. My
+                            Kids Foundation Course is designed for young learners, while I have tailored approaches for
+                            teens, adults, and senior students.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can I take a free trial class?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! I offer a completely free trial class so you can experience my teaching style before
+                            making any commitment. Just fill out the contact form or WhatsApp me to schedule your free
+                            trial.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What if I miss a class?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No worries! Just inform me at least 2 hours before the scheduled class and we'll reschedule
+                            it to another convenient time. I understand that life can be unpredictable.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you teach Urdu to non-native speakers?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! My Urdu course is designed for both beginners and those who can speak but cannot
+                            read/write. It's especially popular among overseas Pakistani and Indian families who want
+                            their children to learn Urdu.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What payment methods do you accept?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I accept payments via PayPal, bank transfer, Wise (TransferWise), and local mobile payment
+                            methods. Monthly fees are due at the beginning of each month. Family discounts are available
+                            for siblings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== VIDEO INTRO SECTION ========== -->
+    <section class="video-intro section" id="video">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">Meet the Teacher</span>
+                <h2 class="section-title">Watch My <span class="text-gold">Intro Video</span></h2>
+                <p class="section-desc">Get to know my teaching style before you book your first class</p>
+            </div>
+            <div class="video-intro-wrap" data-animate>
+                <div class="video-play-card" id="videoPlayCard">
+                    <div class="video-thumbnail">
+                        <div class="video-thumb-overlay">
+                            <div class="video-thumb-text">
+                                <span class="arabic-text">بِسْمِ اللَّهِ</span>
+                                <span>Ustaz Shuaib Alam</span>
+                                <span class="video-duration"><i class="fas fa-clock"></i> 2:30 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="video-play-btn" id="videoPlayBtn" aria-label="Play intro video">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <div class="video-iframe-wrap" id="videoIframeWrap" style="display:none;">
+                        <iframe id="youtubeIframe" src=""
+                            data-src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+                            title="Ustaz Shuaib — Introduction Video" frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="video-intro-info">
+                    <div class="vi-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h4>Certified Teacher</h4>
+                            <p>8+ years experience in online Islamic education</p>
+                        </div>
+                    </div>
+                    <div class="vi-item">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <h4>2,500+ Students</h4>
+                            <p>Taught students from 20+ countries worldwide</p>
+                        </div>
+                    </div>
+                    <div class="vi-item">
+                        <i class="fas fa-star"></i>
+                        <div>
+                            <h4>4.9 / 5 Rating</h4>
+                            <p>Consistently top-rated by students and parents</p>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-calendar-check"></i> Book Free Trial
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== AVAILABILITY TIMETABLE ========== -->
+    <section class="timetable section" id="timetable">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">Availability</span>
+                <h2 class="section-title">Class <span class="text-gold">Schedule</span></h2>
+                <p class="section-desc">Choose a time that works best for you — 7 days a week across all time zones</p>
+            </div>
+            <div class="timetable-wrap" data-animate>
+                <div class="timetable-table">
+                    <div class="tt-head">
+                        <div class="tt-cell tt-label">Time Slot</div>
+                        <div class="tt-cell">Mon</div>
+                        <div class="tt-cell">Tue</div>
+                        <div class="tt-cell">Wed</div>
+                        <div class="tt-cell">Thu</div>
+                        <div class="tt-cell">Fri</div>
+                        <div class="tt-cell">Sat</div>
+                        <div class="tt-cell">Sun</div>
+                    </div>
+                    <div class="tt-row">
+                        <div class="tt-cell tt-label">6–9 AM</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                    </div>
+                    <div class="tt-row">
+                        <div class="tt-cell tt-label">9–12 PM</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-busy">–</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                    </div>
+                    <div class="tt-row">
+                        <div class="tt-cell tt-label">2–5 PM</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-busy">–</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-busy">–</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                    </div>
+                    <div class="tt-row">
+                        <div class="tt-cell tt-label">6–10 PM</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                        <div class="tt-cell tt-open">✓</div>
+                    </div>
+                </div>
+                <div class="tt-legend">
+                    <span class="tt-legend-item"><span class="tt-dot open"></span> Available</span>
+                    <span class="tt-legend-item"><span class="tt-dot busy"></span> Limited</span>
+                </div>
+                <p class="tt-note">All times are in IST (India Standard Time). <a href="#contact"
+                        class="text-emerald">Contact me</a> to convert to your timezone.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-content" data-animate>
+                <h2>Ready to Begin Your Learning Journey?</h2>
+                <p>Book a free trial class today and experience the difference personalized teaching makes.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary btn-lg">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                    <a href="https://wa.me/1234567890" class="btn btn-whatsapp btn-lg" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Get in <span class="text-gold">Touch</span></h2>
+                <p class="section-desc">Fill out the form or reach out directly — I respond within 24 hours</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate>
+                    <div class="contact-card">
+                        <div class="contact-card-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+1 (234) 567-890</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>ustaz.shuaib@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <h4>Class Timings</h4>
+                            <p>Mon - Sun: 6 AM - 10 PM (IST)</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-globe"></i></div>
+                        <div>
+                            <h4>Available Worldwide</h4>
+                            <p>UK, USA, Canada, Australia, UAE & more</p>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="#" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-wrap" data-animate>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">WhatsApp Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 234 567 890">
+                            </div>
+                            <div class="form-group">
+                                <label for="course">Interested Course</label>
+                                <select id="course" name="course">
+                                    <option value="">Select a Course</option>
+                                    <option value="nazra">Quran Reading (Nazra)</option>
+                                    <option value="tajweed">Tajweed Mastery</option>
+                                    <option value="hifz">Hifz Al-Quran</option>
+                                    <option value="urdu">Urdu Reading & Writing</option>
+                                    <option value="kids">Kids Islamic Foundation</option>
+                                    <option value="arabic">Arabic Language</option>
+                                    <option value="islamic">Islamic Studies</option>
+                                    <option value="translation">Quran with Translation</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="Tell me about your learning goals..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-icon">☪</span>
+                        <div class="logo-text">
+                            <span class="logo-name">Ustaz Shuaib</span>
+                            <span class="logo-sub">Quran & Urdu Teacher</span>
+                        </div>
+                    </a>
+                    <p>Dedicated to spreading the knowledge of Quran and Urdu language through personalized online
+                        education. Teaching with patience, passion, and professionalism.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Courses</h4>
+                    <ul>
+                        <li><a href="#courses">Quran Reading</a></li>
+                        <li><a href="#courses">Tajweed Mastery</a></li>
+                        <li><a href="#courses">Hifz Al-Quran</a></li>
+                        <li><a href="#courses">Urdu Language</a></li>
+                        <li><a href="#courses">Kids Foundation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fab fa-whatsapp"></i> +1 (234) 567-890</li>
+                        <li><i class="fas fa-envelope"></i> ustaz.shuaib@example.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sun: 6 AM - 10 PM</li>
+                        <li><i class="fas fa-globe"></i> Available Worldwide</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ustaz Shuaib Alam. All rights reserved.</p>
+                <p class="footer-dua">رَبِّ زِدْنِي عِلْمًا — "My Lord, increase me in knowledge"</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== WHATSAPP FLOATING BUTTON ========== -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with me!</span>
+    </a>
+
+    <!-- ========== BACK TO TOP ========== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- ========== BOOK FREE TRIAL MODAL ========== -->
+    <div class="modal-overlay" id="trialModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-box">
+            <button class="modal-close" id="modalClose" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-icon">☪</div>
+            <h2 id="modalTitle">Book Your <span class="text-gold">Free Trial</span> Class</h2>
+            <p>Choose a course and connect with me instantly via WhatsApp to schedule your first session!</p>
+            <div class="modal-courses">
+                <label>Select Course</label>
+                <div class="modal-course-grid">
+                    <button class="modal-course-btn active" data-course="Quran Reading (Nazra)">📖 Quran
+                        Reading</button>
+                    <button class="modal-course-btn" data-course="Tajweed Mastery">🎙️ Tajweed</button>
+                    <button class="modal-course-btn" data-course="Hifz Al-Quran">🧠 Hifz</button>
+                    <button class="modal-course-btn" data-course="Urdu Language">✍️ Urdu</button>
+                    <button class="modal-course-btn" data-course="Arabic Language">🌙 Arabic</button>
+                    <button class="modal-course-btn" data-course="Islamic Studies">🕌 Islamic Studies</button>
+                </div>
+            </div>
+            <a href="#" class="btn btn-whatsapp btn-block modal-wa-btn" id="modalWaBtn" target="_blank">
+                <i class="fab fa-whatsapp"></i> Book via WhatsApp
+            </a>
+            <p class="modal-note"><i class="fas fa-lock"></i> Free — No commitment required</p>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
