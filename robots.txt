@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://teacher-portfolio-shuaib.vercel.app/sitemap.xml
