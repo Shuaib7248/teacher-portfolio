@@ -479,7 +479,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalWaBtn = document.getElementById('modalWaBtn');
     const modalCourseBtns = document.querySelectorAll('.modal-course-btn');
     let selectedCourse = 'Quran Reading (Nazra)';
-    const waBase = 'https://wa.me/1234567890?text=';
+    const waBase = 'https://wa.me/917248227728?text=';
 
     function updateWaLink() {
         const msg = encodeURIComponent(`Assalamu Alaikum! I'd like to book a FREE TRIAL class for: ${selectedCourse}. Please let me know the available slots. JazakAllah Khair!`);
