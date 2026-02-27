@@ -616,7 +616,7 @@ body.menu-open {
 
 /* Drawer branded header */
 .nav-links::after {
-    content: '☪ Ustaz Shuaib';
+    content: '☪ Shuaib Alam Qasmi';
     display: block;
     padding: 28px 24px 20px;
     font-family: var(--font-heading);
